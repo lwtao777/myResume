@@ -28,16 +28,20 @@ html,body{
     left:0;
 }
 .slide li:nth-child(1){
-    background: url(images/a1.jpg) no-repeat center center;
+    /*background: url(images/a1.jpg) no-repeat center center;*/
+    background: #000;
 }
 .slide li:nth-child(2){
-    background: url(images/a2.jpg) no-repeat center center;
+    background: #000;
+    /*background: url(images/a2.jpg) no-repeat center center;*/
 }
 .slide li:nth-child(3){
-    background: url(images/a3.jpg) no-repeat center center;
+    background: #000;
+    /*background: url(images/a3.jpg) no-repeat center center;*/
 }
 .slide li:nth-child(4){
-    background: url(images/a4.jpg) no-repeat center center;
+    background: #000;
+    /*background: url(images/a4.jpg) no-repeat center center;*/
 }
 .zIndex{
     z-index: 111;
@@ -64,7 +68,7 @@ html,body{
     margin-left: 50px;
     width: 530px;
     font-size: 30px;
-    color: tomato;
+    color: #FFF;
     margin-top: 20px;
     line-height: 35px;
 }
@@ -120,10 +124,12 @@ html,body{
 .a3 {
     position: absolute;
 }
+/*
 #a3{
     -webkit-transform: rotateY(720deg);
     transform: rotateY(720deg);
     -webkit-transition:1s;
 }
+*/
 
 

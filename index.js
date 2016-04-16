@@ -13,6 +13,7 @@ if(desW/desH<winW/winH){
 
 
 [].forEach.call(oLis, function () {
+    console.log(arguments);
     arguments[0].index = arguments[1];
     arguments[0].addEventListener('touchstart', start, false);
     arguments[0].addEventListener('touchmove', move, false);
